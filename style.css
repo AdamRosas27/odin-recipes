@@ -1,0 +1,38 @@
+body {
+    background-color: #f4ffdb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1.main-title, 
+h1.honey-chicken-title,
+h1.shrimp-pasta-title,
+h1.sugar-cookie-title{
+    color: #fdfffa;
+    font-size: 50px;
+    text-align: center;
+    -webkit-text-stroke: 1.5px black;
+}
+
+ul.recipe.links{
+    list-style-type: none;
+    text-align: center;
+}
+
+li.recipe.one, li.recipe.two, li.recipe.three {
+    margin: 25px;
+}
+
+img.chicken-img, img.cookie-img{
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 300px;
+}
+
+img.shrimp-img{
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 400px;
+}
+
